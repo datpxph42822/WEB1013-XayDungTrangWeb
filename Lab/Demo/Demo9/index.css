@@ -1,0 +1,36 @@
+.header{
+    height: 120px;
+    background-color: #FF9800;
+    display: flex;
+}
+.header .logo{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+.nav{
+    height: 70px;
+    background-color: #00B38E;
+}
+.body{
+    min-height: 80vh;
+    height: auto;
+    background-color: #C6C625;
+    display: flex;
+}
+.body .left{
+    min-height: 80vh;
+    background-color: #C5C525;
+    width: calc(100% - 300px);
+}
+.body .right{
+    min-height: 80vh;
+    background-color: #BC0000;
+    width: 300px;
+}
+.footer{
+    height: 120px;
+    background-color: #AE98EA;
+}

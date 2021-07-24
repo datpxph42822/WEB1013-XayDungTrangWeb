@@ -1,0 +1,41 @@
+.menu{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.text{
+    text-transform: uppercase;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
+td,th{
+    padding: 0.7rem;
+}
+td{
+    border-bottom: 1px solid orange;
+}
+th{
+    color: white;
+    background-color: orange;
+    border-color: white;
+    border-bottom-color: white;
+}
+.table1 {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid steelblue;
+}
+.td1,.th1{
+    padding: 0.7rem;
+    border: 1px solid skyblue;
+}
+.th1{
+    color: white;
+    background-color: steelblue;
+}

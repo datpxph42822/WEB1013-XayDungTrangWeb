@@ -1,0 +1,11 @@
+.form-group{
+    padding: 5px;
+    font-variant: small-caps;
+}
+.form-control{
+    padding: 2px;
+    width: 30%;
+}
+input[text],textarea{
+    width: 30%;
+}

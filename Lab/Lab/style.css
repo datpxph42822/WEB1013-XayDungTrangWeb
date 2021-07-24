@@ -1,0 +1,46 @@
+html, body {
+    background: #2c3e50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+h1 {
+    color: #f1c40f;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+}
+p {
+    color: #f1c40f;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 20px;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    line-height: 1;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 1em 2.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+.lab {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+.lab:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.center{
+    text-align: center;
+}

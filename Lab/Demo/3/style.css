@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+p{
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: 'Open Sans', serif;
+    font-style: oblique;
+    color: blueviolet;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 9px -2px 5px yellow;
+    text-decoration: underline;
+    line-height: 50px;
+}
+a{
+    cursor: default;
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+    text-decoration: underline;
+    
+}
+a:visited{
+    color: blue;
+}

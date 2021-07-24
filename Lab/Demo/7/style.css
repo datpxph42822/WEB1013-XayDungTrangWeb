@@ -1,0 +1,38 @@
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    border-collapse: collapse;
+    margin: 5%;
+    font-size: 0.9em;
+    min-width: 40%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+}
+th{
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    border-color: white;
+    border-bottom-color: white;
+}
+td{
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid skyblue;
+    padding: 10px;
+}
+tbody tr:nth-child(2n+1){
+    background-color: orange;
+}
+tbody tr:first-child{
+    background-color: pink;
+}
+tbody tr:hover{
+    background-color: red;
+}

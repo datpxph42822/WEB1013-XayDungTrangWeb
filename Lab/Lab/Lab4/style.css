@@ -1,0 +1,49 @@
+body{
+    text-align:center;
+}
+img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+em{
+    font-variant:small-caps;
+    font-size:20px;
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+strong{
+    color: brown
+}
+em.doan1{
+    color: red
+}
+em.doan2{
+    color: blue
+}
+em.doan3{
+    color: green
+}
+h2{
+    color:white;
+    text-shadow:0 0 5px red;
+}
+.menu>a{
+    font-variant:small-caps;
+    color:blue;
+    text-decoration:none;
+}
+.menu>a:visited{
+    color:green;
+}
+.menu>a:hover{
+    color:red;
+    text-decoration:underline;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}

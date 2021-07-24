@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+b{}
+.tab{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+table,th,td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+th,td{
+    width: 30px;
+}
+th{
+    font-weight: bold;
+    background-color: khaki;
+}

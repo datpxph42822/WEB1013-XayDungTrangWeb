@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+.header{
+    background-image: url('images/banner.jpg');
+    height: 200px;
+}
+.header .menu-right-top{
+    background-color: orange;
+    width: 500px;
+    height: 50px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 15px aqua;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.menu-right-top a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;;
+    font-variant: small-caps;
+    line-height: 50px;
+    margin: 20px;
+}
+.header .slogan{
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+}
+.slogan .school-name{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slogan .school-type{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+}
+.nav{
+    height: 50px;
+    background-color: red;
+}
+.nav .left{
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    float: left;
+}
+.nav .right{
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    float: right;
+}
+.nav .left a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 20px;
+}
+.nav .right a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 20px;
+}
+.body{
+    min-height: 80vh;
+    display: flex;
+    border-bottom: 5px double red;
+}
+.body .left{
+    width: calc(100% - 300px);
+    min-height: 80vh;
+    
+}
+.body .right{
+    width: 300px;
+    min-height: 80vh;
+    background-color: gray;
+}
+.footer{
+    height: 50px;
+    background-color: #D8FFFF;
+    color: gray;
+    text-align: center;
+    line-height: 50px;
+}

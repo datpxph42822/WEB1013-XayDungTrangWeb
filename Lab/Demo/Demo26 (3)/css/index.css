@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h2 span{
+    color: aqua;
+}
+
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    background-color: darkslategray;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    color: white;
+    line-height: 40px;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: aqua;
+}

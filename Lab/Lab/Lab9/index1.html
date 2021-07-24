@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9_2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <div>Họ và tên:</div>
+            <input type="text" name="username" class="form-control"><br/>
+            <span>Giới tính:</span>
+            <input type="radio" name="gender" checked>
+                <label for="male">Nam</label>
+            <input type="radio" name="gender">
+                <label for="female">Nữ</label>
+        </div>
+    </form>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <div>Hình ảnh:</div>
+            <input type="file">
+        </div>
+    </form>
+    <div class="form-group">
+        <div>Quốc tịch:</div>
+        <select id="country" name="country" class="form-control">
+            <option value="vn">Việt Nam</option>
+            <option value="us">United States</option>
+            <option value="sg">Singapo</option>
+        </select>
+        <div>Sở thích:</div>
+            <label><input type="checkbox">Thể thao</label>
+            <label><input type="checkbox" checked>Du lịch</label>
+            <label><input type="checkbox">Âm nhạc</label>
+            <label><input type="checkbox">Ẩm thực</label>
+        <div>Ghi chú:</div>
+        <textarea></textarea>
+    </div>
+    <hr><button>Đăng ký</button> <button>Nhập lại</button>
+</body>
+</html>

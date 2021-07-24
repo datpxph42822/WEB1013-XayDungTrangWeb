@@ -1,0 +1,42 @@
+.header{
+    height: 150px;
+    background-color: yellow;
+    margin-bottom: 5px;
+}
+.header .logo{
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+}
+.menu-nav{
+    height: 50px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+.body{
+    height: auto;
+    min-height: 80vh;
+    display: flex;
+}
+.body .left{
+    background-color: goldenrod;    
+    width: 200px;   
+    min-height: 80vh; 
+}
+.body .center{
+    background-color: green;    
+    width: calc(100% - 390px);
+    min-height: 80vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.body .right{
+    background-color: rgb(90, 161, 224);    
+    width: 200px;  
+    min-height: 80vh;
+}
+.footer{
+    height: 150px;
+    background-color: brown;
+    margin-top: 5px;
+}

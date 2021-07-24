@@ -1,0 +1,70 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.post-article{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    box-sizing: border-box;
+    color: #141414;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 25px 0px;
+    position: relative;
+}
+.mask{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumb{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+}
+.thumbnail img{
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 148px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 248px;
+}
+.content{
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: calc((100% - 250px) - 20px);
+}
+.title{
+    color: slateblue;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.desc{
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+.bbWrapper{
+    box-sizing: border-box;
+}
+iframe{
+    float: left;
+    margin: 5px;
+}
+.music{
+    margin: 5px;
+    max-width: 15%;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
